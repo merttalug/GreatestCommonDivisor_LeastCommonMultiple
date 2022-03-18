@@ -76,3 +76,27 @@ Common multiples of 4 and 6 are the numbers that are in both lists:
 In this list, the smallest number is 12. Hence, the least common multiple is 12.
 
 [LCM](https://en.wikipedia.org/wiki/Least_common_multiple)
+
+
+# Scope Preview
+
+```
+
+        while (i<=n1 && i<=n2){
+            if (n1 %i ==0 && n2%i==0){
+                gcd=i;
+            }
+            i++;
+
+        }
+
+
+        while (k<=n1*n2){
+            if (k%n1==0 && k%n2==0){
+                lcm=k;
+                break;
+            }
+            k++;
+        }
+
+```
